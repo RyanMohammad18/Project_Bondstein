@@ -1,0 +1,143 @@
+.image1 {
+  width: 300px;
+  height: 300px;
+  margin-top: 4rem;
+  margin-left: 4rem;
+}
+.container {
+  display: flex;
+}
+
+.textContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+
+.textContainer img {
+  margin-right: 10px; 
+}
+
+.text {
+  display: flex;
+  flex-direction: column; 
+}
+
+.text h4,
+.text p {
+  margin: 0; 
+}
+
+.bid {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+
+.bid p,
+.bid h5 {
+  margin: 0; 
+}
+.containers {
+  margin-top: 5rem;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+}
+
+.image2 img {
+  width: 150px;
+  height: 150px;
+}
+
+.imgdetails {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 1rem;
+}
+
+.bidContainer {
+  display: flex;
+
+  gap: 10px;
+}
+
+.bidContainer img {
+  max-width: 30px;
+}
+
+.bidContainer button {
+  padding: 2px 5px;
+  height: fit-content;
+  margin-top: 0.7rem;
+  color: green;
+  border-color: green;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.place button {
+  border-radius: 60px;
+  background: white;
+
+  padding: 5px 5px;
+  justify-content: center;
+  align-items: center;
+
+  color: #3d00b7;
+  cursor: pointer;
+  border-color: #3d00b7;
+}
+
+.image5 {
+  height: 15px;
+}
+.container3{
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 500px) {
+  .image1 {
+    width: 200px;
+    height: 200px;
+    margin: 2rem;
+  }
+
+  .textContainer {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+  }
+
+  .bid {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+  }
+
+  .containers {
+    margin-top: 3rem;
+  }
+
+  .image2 img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .imgdetails {
+    margin-left: 0.5rem;
+  }
+
+  .bidContainer button {
+    padding: 2px 3px;
+    margin-top: 0.4rem;
+  }
+
+  .place button {
+    padding: 3px 3px;
+  }
+}

@@ -1,0 +1,158 @@
+
+.navbar {
+    margin-top: 2%;
+  background-color: white;
+  
+}
+
+.container {
+  display: flex;
+  
+  justify-content: center; 
+  align-items: center;
+  border-bottom: 1px solid #e5e4e2;
+  padding-bottom: 20px;
+
+}
+
+
+.logoAndMenu {
+  display: flex;
+  align-items: center;
+  margin-right: 50px; 
+}
+
+.logoAndMenu p {
+  margin: 0;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+.logoAndMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.logoAndMenu ul li {
+  margin-left: 50px; 
+}
+
+.searchContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px; 
+}
+
+.searchInput {
+  padding: 10px 40px 10px 60px; 
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  width: 150px;
+  background-color: #f5f5f5;
+}
+
+.faSearch {
+  color: black;
+  font-size: 25px;
+}
+
+.btn-container {
+  margin-left: 50px;
+}
+
+.btn {
+  border-style: none;
+  background-color: white;
+  color: #888888;
+  font-size: large;
+  margin-left: 50px;
+}
+
+.btn:hover {
+  color: black;
+}
+
+.Nfters {
+  color: #3d00b7;
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.upload {
+  border-radius: 60px;
+  background: #3d00b7;
+  margin-left: 20px;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  cursor: pointer;
+}
+.upload:hover{
+    background: white;
+    color: #3d00b7;
+    transition: 0.7s;
+}
+.walletbtn {
+    cursor: pointer;
+  display: inline-flex;
+  padding: 10px 22px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 60px;
+  border: 2px solid #3d00b7;
+  margin-left: 20px;
+}
+.walletbtn:hover{
+    background: #3d00b7;;
+    color: whitesmoke;
+    transition: 0.7s;
+}
+.menuIcon{
+    visibility: hidden;
+}
+
+
+@media screen and (max-width: 500px) {
+ 
+  .container{
+    width: 100%;
+    display: flex;
+    align-items:start;
+    justify-content: left;
+    flex-direction: column;
+    column-gap: 2rem;
+    margin: 0%;
+   
+    
+  }
+
+  .logoAndMenu{
+    width: 100%;
+    display: flex;
+    align-items:start;
+    justify-content: left;
+    margin: 0%;
+    flex-direction: column;
+    column-gap: 2rem;
+    gap: 0%;
+
+  }
+
+  
+
+}

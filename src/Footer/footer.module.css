@@ -1,0 +1,46 @@
+.footercontainer{
+    width: 100%;
+    background-color: white;
+    color: black;
+    margin-top: 3%;
+}
+
+.inputcontainer {
+    display: inline-block;
+    position: relative;
+  }
+  
+ .inputcontainer input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    width: 200px;
+    border: 2px solid black;
+  }
+  
+ .inputcontainer button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .footercontainer {
+      margin-top: 2%;
+    }
+  
+    .inputcontainer input[type="text"] {
+      width: 120px;
+    }
+  
+    .inputcontainer button {
+      padding: 6px;
+    }
+  }

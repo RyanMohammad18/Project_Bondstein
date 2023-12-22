@@ -1,0 +1,130 @@
+.container{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.firstimg {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    background: url(../BannerFive/Images/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ .firstimg3{
+
+    margin-top: 30%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background: url(../BannerFive/Images/5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0%;
+
+  }
+  .secondimg{
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background: url(../BannerFive/Images/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  .overlayContainer {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+  }
+  
+  .overlayImg {
+    width: 100px;
+    height: 100px;
+    
+  }
+
+  .overlayImg2 {
+    width: 50px;
+    height: 50px;
+    
+  }
+  
+
+  .textdetails{
+    margin-top: 30%;
+  }
+
+
+.signup {
+    border-radius: 60px;
+    background: #3d00b7;
+    margin-top: 1rem;
+    margin-left: 20px;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+  
+    color: white;
+    cursor: pointer;
+  }
+  .signup:hover{
+      background: white;
+      color: #3d00b7;
+      transition: 0.7s;
+  }
+
+  .margin{
+    margin-top: 1rem;
+  }
+
+
+  @media screen and (max-width: 500px) {
+    .container {
+      margin-top: 3%;
+      margin-left: 1%;
+    }
+  
+    .firstimg {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .firstimg3 {
+      margin-top: 15%;
+      width: 150px;
+      height: 150px;
+    }
+  
+    .secondimg {
+      margin-top: 3%;
+      margin-left: 10%;
+      width: 100px;
+      height: 100px;
+    }
+  
+    .overlayImg {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .overlayImg2 {
+      width: 15px;
+      height: 15px;
+    }
+  
+    .textdetails {
+      margin-top: 10%;
+    }
+  
+    .signup {
+      border-radius: 30px;
+      margin-top: 0.3rem;
+      margin-left: 5px;
+      padding: 6px 15px;
+      font-size: small;
+    }
+  }

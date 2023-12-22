@@ -1,0 +1,21 @@
+
+.parentDiv {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border-bottom: 2px dotted #1a1b1b33 ;
+
+  }
+.bannercontainer{
+    border-left: 2px dotted #1a1b1b33 ;
+    padding-left: 2rem;
+    margin-top: 15%;
+ 
+}
+.numbertext{
+    font-size: larger;
+    color: green;
+    font-weight: bold;
+}

@@ -1,0 +1,101 @@
+.container{
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-left: 5%;
+    background-color: #D9E0EC33;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftbtns button{
+   margin-right: 20px;
+   padding: 10px 20px;
+   background-color: white;
+   border-color: #3D00B7;
+   border-radius: 20px;
+   contain: content;
+   cursor: pointer;
+}
+
+.leftbtns button:hover{
+    background-color: #3D00B7;
+    color: white;
+    transition: 0.8s;
+
+}
+
+.filterBtnContainer{
+    margin-right: 100px;
+    padding: 5px 10px;
+    background: rgba(220, 220, 220, 0.20);
+    border-color: grey;
+    border-radius: 10px;
+    contain: content;
+    cursor: pointer;
+
+
+
+}
+
+
+.filterBtnContainer:hover{
+    color: white;
+    background-color: black;
+}
+.svgfilter{
+    height: 15px;
+    width: 20px;
+}
+.more {
+    margin-top: 5%;
+    border-radius: 60px;
+    background: white;
+   
+    padding: 10px 30px;
+ 
+  
+    color: #3d00b7;
+    cursor: pointer;
+  }
+  .more:hover{
+      background: #3d00b7;
+      color: white;
+      transition: 0.7s;
+  }
+
+  .btncontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 500px) {
+    .container {
+      margin-top: 3%;
+      padding-top: 1%;
+      padding-left: 2%;
+    }
+  
+    .btns {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .leftbtns button {
+      margin-bottom: 10px;
+      margin-right: 0;
+    }
+  
+    .filterBtnContainer {
+      margin-right: 0;
+    }
+  
+    .more {
+      margin-top: 2%;
+    }
+  }

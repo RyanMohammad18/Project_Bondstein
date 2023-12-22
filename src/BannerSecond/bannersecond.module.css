@@ -1,0 +1,42 @@
+.container{
+    margin-top: 15%;
+    padding-left: 10%;
+    background-color: #D9E0EC33;
+}
+
+  
+  .flexRow {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+  }
+  
+  .flexRow img {
+    max-width: 100px;
+  }
+  
+  .title{
+    margin-top: 50px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .container {
+      margin-top: 5%; 
+      padding-left: 5%; 
+    }
+  
+    .title {
+      margin-top: 20px; 
+    }
+    
+    .flexRow {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+    
+    .flexRow img {
+      max-width: 80px; 
+    }
+  
+   
+  }

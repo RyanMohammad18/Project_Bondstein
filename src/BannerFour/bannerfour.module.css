@@ -1,0 +1,56 @@
+
+.parentDiv {
+  
+    display: flex;
+    gap: 10px; 
+  }
+  .container{
+    padding-top: 2rem;
+    background-color:#D9E0EC33 ;
+  }
+
+  .secondimg {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+
+  .secondimg img {
+    width: 100px; 
+    height: 100px; 
+    margin-bottom: 5px; 
+  }
+  
+ 
+  .firstimg img {
+   margin-left: 10px;
+   width: 300px; 
+   height: 310px; 
+
+  }
+
+  .containerfour{
+    margin-top: 5%;
+    margin-left: 20px;
+  }
+  @media screen and (max-width: 500px) {
+    .parentDiv {
+      flex-direction: column;
+    }
+  
+    .firstimg img {
+      width: 150px;
+      height: 155px;
+    }
+  
+    .secondimg img {
+      width: 30px;
+      height: 30px;
+      margin-bottom: 2px;
+    }
+  
+    .containerfour {
+      margin-top: 2%;
+      margin-left: 5px;
+    }
+  }
